@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">diplay_video</string>
+    <string name="start">Start</string>
+    <string name="videoview_demo">VideoView Demo</string>
+</resources>
