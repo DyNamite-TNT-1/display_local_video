@@ -22,9 +22,10 @@ public class MainActivity extends AppCompatActivity {
         videoView = findViewById(R.id.videoView);
 
         String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.allforlove;
+        String videoPath2 = "https://videocdn.bodybuilding.com/video/mp4/62000/62792m.mp4";
         System.out.println(videoPath);
 
-        videoView.setVideoPath(videoPath);
+        videoView.setVideoPath(videoPath2);
 
         videoView.setOnPreparedListener(mediaPlayer -> mediaPlayer.setLooping(true));
         videoView.start();
